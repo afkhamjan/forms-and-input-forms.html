@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+</head>
+<body>
+    <form action="">
+        <h1 style="background-color: #414141;">payment form</h1>
+        <h2 style="background-color:aliceblue">contact information</h2>
+        <p>name: <input type="text" name="name" id="" required></p>
+        <fieldset>
+        <pre>
+    <h4>Gender</h4>
+            MALE <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+        </pre>
+        </fieldset>
+        <pre>
+            Adress: <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+            Email: <input type="email" name="email" id="email">
+        </pre>
+        <br>
+        <h2>payment indormation</h2>
+        <p>card type:
+            <select name="cardtype" id="">
+                <option value="">select a card type</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupees</option>
+                <option value="easypaisa">digital</option>
+            </select>
+        </p>
+        <p>
+            Expiry date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <p>
+            CVV: <input type="password" name="cvv" id="cvv">
+        </p>
+    </form>
+</body>
+</html>
